@@ -1,4 +1,4 @@
-//Parent class
+// Parent class
 class Media {
     constructor(title, isCheckedOut, ratings) {
       this._title = title;
@@ -69,6 +69,8 @@ class Media {
       return this._runTime;
     }
   }
+
+  // tests
   
   const historyOfEverything = new Book('Bill Bryson', 'A Short History of Nearly Everything', 544);
   
